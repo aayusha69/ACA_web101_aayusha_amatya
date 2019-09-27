@@ -1,0 +1,21 @@
+body {
+    background-color: lightgrey;
+}
+
+main {
+    width: 60%;
+    margin: auto;
+}
+section {
+    background-color: beige;
+    padding: 10px;
+    margin-bottom: 1px;
+}
+
+
+section h2 {
+    margin-top: 0%;
+    font: outline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height : 10%;
+}
