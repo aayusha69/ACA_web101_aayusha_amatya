@@ -3,19 +3,24 @@ body {
 }
 
 main {
-    width: 60%;
+    width: 55%;
     margin: auto;
+    height: 30%;
+   display: list;
 }
 section {
-    background-color: beige;
-    padding: 10px;
+    background-color: whitesmoke;
+    padding: 20px;
     margin-bottom: 1px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    height: 30%;
 }
-
-
-section h2 {
-    margin-top: 0%;
-    font: outline;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height : 10%;
-}
+p{
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thin;
+  }
+  
