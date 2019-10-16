@@ -1,0 +1,33 @@
+main {
+  width: 850px;
+  height: 450px;
+  background-image: url(https://images-na.ssl-images-amazon.com/images/I/81jYnzc5YQL._SX425_.jpg);
+  color: white;
+}
+article {
+  background-color: rgb(224, 222, 222);
+}
+h1 {
+  text-align: center;
+  text-decoration-color: whitesmoke;
+  padding: 175px;
+  font-size: 80px;
+}
+body {
+  margin: auto;
+  width: 850px;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.flex-container > section {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: auto;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
