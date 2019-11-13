@@ -1,0 +1,48 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+.wrapper {
+  width: 100%;
+  color: black;
+  background-image: linear-gradient(
+      rgba(56, 53, 53, 0.5),
+      rgba(51, 45, 45, 0.9)
+    ),
+    url(beautiful.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 2vw;
+  color: rgb(100, 62, 136);
+}
+@keyframes animate {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+h1 {
+  animation: animate 2s 1;
+}
+h3 {
+  animation: animate 3s 1;
+}
+.button {
+  text-decoration: none;
+  padding: 10px 50px;
+  color: #fff;
+  border: 2px solid;
+  transition: 0.6s ease;
+  animation: animate 4s 1;
+}
+.button:hover {
+  background-color: #fff;
+  color: #000;
+}
